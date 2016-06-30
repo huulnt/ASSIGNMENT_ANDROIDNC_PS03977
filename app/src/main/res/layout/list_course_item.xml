@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv_list_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="121dp"
+                android:layout_height="121dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/com_facebook_profile_picture_blank_square"
+                android:layout_marginRight="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tên"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/tv_dateStart"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ngày bắt đầu"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/tv_dateEnd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ngày kết thúc"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/tv_timeset"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Thời gian"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/tv_slot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Buổi"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                <TextView
+                    android:id="@+id/tv_note"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Ghi Chú"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</LinearLayout>

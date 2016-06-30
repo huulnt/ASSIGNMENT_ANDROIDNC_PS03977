@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txt_name_add_student"
+        android:layout_width="fill_parent"
+        android:layout_height="62dp"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:text="@string/add_course"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="24dp" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_name_course"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/ed_name_course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:hint="Tên Khóa học"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_date_start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.8">
+
+            <EditText
+                android:id="@+id/ed_datestart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ngày bắt đầu" />
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/img_startdate"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:src="@drawable/ic_date" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_date_end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.8">
+
+            <EditText
+                android:id="@+id/ed_dateend"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ngày kết thúc" />
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/img_enddate"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:src="@drawable/ic_date" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_time_set"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.8">
+
+            <EditText
+                android:id="@+id/ed_timeset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Thời gian " />
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/img_dateset"
+            android:layout_width="34dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="0.2"
+            android:src="@drawable/ic_date" />
+    </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_slot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/ed_slot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:hint="Buổi"
+            android:inputType="numberSigned" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_layout_note"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/ed_note"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:ems="10"
+            android:hint="Ghi Chú"
+            android:inputType="text" />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">AndroidNC_ASSIGNMENTS</string>
+    <string name="language">Ngôn ngữ</string>
+    <string name="login_name">Nhập tên tài khoản</string>
+    <string name="login">Đăng nhập</string>
+    <string name="singup">Đăng ký</string>
+    <string name="login_pass">Nhập mật khẩu</string>
+
+    <string name="add_course">Thêm Khóa học</string>
+    <string name="facebook_app_id">813220842144162</string>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="course">Course</string>
+    <string name="maps">Maps</string>
+    <string name="news">News</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="del">Xóa</string>
+    <string name="edit">Sửa</string>
+    <string name="del_all">Xoá tất cả</string>
+    <string name="Complete">Thêm thành công</string>
+    <string name="Error">Lỗi</string>
+    <string name="Upload">Thêm khóa học</string>
+    <string name="capnhat">Cập nhật</string>
+</resources>
